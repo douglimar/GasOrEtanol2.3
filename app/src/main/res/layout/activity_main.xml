@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="br.com.douglimar.gasoretanol.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/btnGasOrEtanol"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:drawableTop="@drawable/ic_invert_colors_black_24dp"
+                android:paddingTop="50dp"
+                android:text="@string/gas_or_etanol"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights" />
+
+
+            <Button
+                android:id="@+id/btnConsumoMedio"
+                android:drawableTop="@drawable/ic_attach_money_black_24dp"
+                android:paddingTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/consumo_medio"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnLitrosAAbastecer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:drawableTop="@drawable/ic_battery_90_black_24dp"
+                android:paddingTop="50dp"
+                android:text="@string/litros_abastecer"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/btnLocalizarPostos"
+                android:layout_width="match_parent"
+                android:drawableTop="@drawable/ic_local_gas_station_black_24dp"
+                android:paddingTop="50dp"
+                android:layout_height="0dp"
+                android:text="@string/localizar_postos"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMain"
+        ads:adSize="BANNER"
+        android:layout_margin="6dp"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

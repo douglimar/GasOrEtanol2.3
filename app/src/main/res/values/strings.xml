@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Gasolina ou Etanol </string>
+    <string name="title_activity_gas_or_etanol">Gasolina ou Etanol</string>
+    <string name="title_activity_consumo_medio">Consumo Médio de Combustível</string>
+    <string name="title_activity_litros_abastecimento">Km por Litro</string>
+    <string name="localizar_postos">Localizar Postos</string>
+    <string name="litros_abastecer">Litros à Abastecer</string>
+    <string name="consumo_medio">Consumo Médio</string>
+    <string name="gas_or_etanol">Gasolina ou Etanol</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/3513447606</string>
+    <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="valor_que_ser_abastecido_r">Valor que será\n abastecido (R$):</string>
+    <string name="valor_do_combust_vel">Valor do Combustível</string>
+    <string name="abastecimento_tip">Aqui você calcula quantos litros será necessário abastecer o seu carro com o dinheiro que você tem</string>
+    <string name="calcular">Calcular</string>
+    <string name="consumo_m_dio_de_combust_vel">Consumo médio de Combustível</string>
+    <string name="consumo_medio_tip">Para calcular a média em quilômetros por litro, basta dividir os quilômetros percorridos pela quantidade de litros que a bomba marca no segundo abastecimento.</string>
+    <string name="km_percorridos">Quantos quilômetros foram percorridos</string>
+    <string name="litros">Quantos litros de combustível foram consumidos</string>
+    <string name="calcular_consumo_medio">Calcular Consumo Médio</string>
+    <string name="valor_do_etanol">Valor do Etanol</string>
+    <string name="valor_da_gasolina">Valor da Gasolina</string>
+    <string name="gas_or_etanol_tip">De acordo com a ANP (Agência Nacional do Petróleo), para ser vantajoso, o Etanol deve custar no máximo 70% do valor da Gasolina</string>
+    <string name="consumo_medio_result">O Consumo Médio do seu veículo é de %s Km por Litro de Combustível</string>
+    <string name="posto_gasolina">posto de gasolina</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_bootsplash">BootsplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="consumo_medio_toast">Informe a quilometragem percorrida e os litros gastos.</string>
+</resources>
